@@ -10,12 +10,12 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <title>Polls {% block title %}{%block endblock%}</title>
+    <title>Polls {% block title %}{% endblock %}</title>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 m-auto">{%block content%}{%endblock%}</div>
+        <div class="col-md-6 m-auto">{% block content %}{% endblock %}</div>
       </div>
     </div>
   </body>
